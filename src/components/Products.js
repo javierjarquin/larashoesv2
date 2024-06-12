@@ -19,20 +19,19 @@ const Productos = () => {
                     <input type="text" className="form-control" placeholder="Descripción del producto" aria-label="Descripción del producto" aria-describedby="Description"></input>
                 </div>
                 <div className="input-group col-md">
-                
-                </div>
-                <div className="input-group col-md">
-
-                </div>
-                <div className="input-group col-md">
-
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Tipo Producto</option>
+                        <option value="1">Calzado</option>
+                        <option value="2">Ropa</option>
+                        <option value="3">Novedades</option>
+                    </select>
                 </div>
                 <div className="input-group col-md">
                     <button type="button" className="btn btn-primary">Buscar</button>
                 </div>
             </div>
             <br></br>
-            <table>
+            <table className="table table-dark table-bordered">
                 <thead>
                     <tr>
                         <th>#</th>

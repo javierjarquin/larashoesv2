@@ -56,3 +56,18 @@
     width: 50px;
     height: 40px;
   }
+
+  /* dashboard.css */
+.dashboard {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 10px; /* Ajustar este valor si el sidebar es minimizado */
+  padding: 20px;
+  width: 100%;
+}
+
+.sidebar.minimized + .main-content {
+  margin-left: 10px; /* Ajustar este valor si el sidebar es minimizado */
+}

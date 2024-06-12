@@ -26,7 +26,7 @@ const Brands = () => {
                 </div>
             </div>
             <br></br>
-            <table className="table table-dark"> 
+            <table className="table table-dark table-bordered"> 
                 <thead>
                     <tr>
                         <th>#</th>
